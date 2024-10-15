@@ -34,10 +34,7 @@ body{
 ul{
     list-style: none;
 }
-.espacio{
-    padding: 400px 0px 0px 0px;
-    background-color: #393939;
-}
+
 .section{
     background: var(--bg-black-900);
     min-height: 100vh;
