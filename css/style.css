@@ -35,7 +35,8 @@ ul{
     list-style: none;
 }
 .espacio{
-    padding: 300px 0px 0px 0px;
+    padding: 400px 0px 0px 0px;
+    background-color: #393939;
 }
 .section{
     background: var(--bg-black-900);
