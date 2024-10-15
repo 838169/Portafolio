@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/skins/color-1.css">
+    <link rel="stylesheet" href="/css/style-switcher.css">
+    <!--Link Style Switcher-->
+    <link rel="stylesheet" href="/css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="/css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="/css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="/css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="/css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+
+    <!--Main container Start-->
+    <div class="main-container">
+        <div class="aside">
+            <div class="logo">
+                <a href="#home"><span>S</span>antiago</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i>Inicio</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>Sobre mí</a></li>
+                <li><a href="#services"><i class="fa fa-list"></i>Servicios</a></li>
+                <li><a href="#portafolio"><i class="fa fa-briefcase"></i>Portafolio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contáctame</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <!--Home Section Start-->
+            <section class="home active section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hola, mi nombre es <span class="name">David Santiago</span></h3>
+                            <h3 class="my-profesion">Yo soy <span class="typing">Estudiante de Ingeniería en sistemas</span></h3>
+                            <p>¡Bienvenido a mi página! Soy un apasionado estudiante de Ingeniería de Sistemas, siempre en busca de nuevos conocimientos en desarrollo web y tecnología. Mi objetivo es seguir creciendo en el mundo de la tecnología mientras ayudo a otros a encontrar soluciones innovadoras para sus necesidades digitales.</p>
+                            <a href="/imagenes/Certificados/Hoja De Vida Santiago O.pdf" class="btn dowload" download="CV David Santiago Ortiz Gonzalez.pdf">Descargar CV</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="/imagenes/Santiago.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Home Section End-->
+            <!--About Section Start-->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Sobre mí</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>Soy David Santiago y <span>Me apasiona lo que estudio</span></h3>
+                                    <p>Soy un joven apasionado por la Ingeniería de Sistemas, siempre en búsqueda de nuevas oportunidades para crecer y aprender. Me considero emprendedor, responsable y honesto, y creo firmemente en el poder de la colaboración para lograr metas en equipo. Actualmente me encuentro en el sexto semestre de la carrera de Ingeniería de Sistemas y siempre busco nuevos desafíos para expandir mis conocimientos y habilidades.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Nombre completo : <span>David Santiago Ortiz Gonzalez</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Fecha de nacimiento : <span>24 sept 2005</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Años : <span>19</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Correo : <span>ortizgonzalezsantiago86@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Teléfono : <span>+57 302 399 9133</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Residencia : <span>Ricaurte - Cundinamarca Vereda Manuel Norte</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="#contact" data-section-index="1" class="btn hire-me">Contáctame</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 60%;"></div>
+                                                <div class="skill-percent">60%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>HTML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 70%;"></div>
+                                                <div class="skill-percent">70%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Java Script</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 20%;"></div>
+                                                <div class="skill-percent">20%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Python</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 50%;"></div>
+                                                <div class="skill-percent">50%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Educación</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2019 - 2021
+                                                    </h3>
+                                                    <h4 class="timeline-title">Técnico en sistemas (SENA)</h4>
+                                                    <p class="timeline-text">Formación técnica en instalación, mantenimiento y soporte de sistemas informáticos, redes y software, desarrollando habilidades para solucionar problemas tecnológicos en diversos entornos empresariales.</p>
+                                                    <br>
+                                                    <a href="/imagenes/Certificados/certificado tecnico.pdf" class="btn dowload" download="Tecnico Sistemas.pdf">Descargar certificado</a>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 27-09-2024 (28 Horas)
+                                                    </h3>
+                                                    <h4 class="timeline-title">Conceptos básicos en Excel (Coursera)</h4>
+                                                    <p class="timeline-text">Curso que enseña las funciones esenciales de Excel, incluyendo fórmulas, tablas, gráficos y gestión de datos, para análisis y presentación eficiente de información.</p>
+                                                    <br>
+                                                    <a href="/imagenes/Certificados/Certificado Coursera Conceptos Básicos de Excel.pdf" class="btn dowload" download="Conceptos Basicos de Excel.pdf">Descargar certificado</a>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 27-09-2024 (28 Horas)
+                                                    </h3>
+                                                    <h4 class="timeline-title">Mentalidad Emprendedora (Coursera)</h4>
+                                                    <p class="timeline-text">Curso que fomenta habilidades para identificar oportunidades, gestionar riesgos y adoptar una actitud innovadora, clave para emprender y liderar proyectos exitosos.</p>
+                                                    <br>
+                                                    <a href="/imagenes/Certificados/Coursera Mentalidad Emprendedora.pdf" class="btn dowload" download="Tecnico Sistemas.pdf">Descargar certificado</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experience padd-15">
+                                    <h3 class="title">Experiencia</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2021 - Presente
+                                                    </h3>
+                                                    <h4 class="timeline-title">Vendedor Independiente (Plataformas de Streaming)</h4>
+                                                    <p class="timeline-text">Gestiono la venta y distribución de cuentas de servicios de streaming en diversas plataformas. Me especializo en la atención al cliente, resolución de problemas técnicos y administración eficiente de suscripciones.</p>
+                                                    
+                                                </div>
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <!--About Section End-->
+            <!--Services Section Start-->
+            <section class="service section" id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Servicios</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!--Service item Start-->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </div>
+                                <h4>Asistencia en Ventas Online</h4>
+                                <p>Ayudo a gestionar y optimizar la venta de productos o servicios en plataformas de streaming y otros medios digitales. Tengo dos años de experiencia como vendedor independiente y me esfuerzo por mejorar la visibilidad y las ventas de productos.</p>
+                            </div>
+                        </div>
+                        <!--Service item End-->
+                        <!--Service item Start-->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-file-excel"></i>
+                                </div>
+                                <h4>Gestión de Inventarios y Registros en Excel</h4>
+                                <p>Ofrezco la creación y mantenimiento de inventarios y registros organizados utilizando Excel. Ideal para pequeños negocios o proyectos que requieren un control básico de datos.</p>
+                            </div>
+                        </div>
+                        <!--Service item End-->
+                        <!--Service item Start-->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Desarrollo Web Básico</h4>
+                                <p>Desarrollo sitios web sencillos y funcionales utilizando HTML, CSS y JavaScript, adecuados para portafolios personales, pequeños negocios o proyectos en crecimiento.</p>
+                            </div>
+                        </div>
+                        <!--Service item End-->
+                        <!--Service item Start-->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon cogs-container">
+                                    <i class="fa fa-cog cog1"></i>
+                                    <i class="fa fa-cog cog2"></i>
+                                </div>
+                                <h4>Instalación y Mantenimiento de cómputo</h4>
+                                <p>Realizo la instalación de programas y proporciono soporte técnico básico para equipos, asegurando un funcionamiento adecuado y eficiente de las herramientas.</p>
+                            </div>
+                        </div>                        
+                        <!--Service item End-->
+                    </div>
+                </div>
+            </section>
+            <!--Services Section End-->
+            <!--Portafolio Section Start-->
+            <section class="portafolio section" id="portafolio">
+                <div class="tontainer">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portafolio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portafolio-heading padd-15">
+                            <h2>Mis proyectos :</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!--Portfolio item Start-->
+                        <div class="portafolio-item padd-15">
+                            <div class="portafolio-item-inner shadow-dark">
+                                <div class="portafolio-img">
+                                    <img src="/imagenes/Proyectos/Proyeco1_img2.png" alt="">
+                                </div>
+                                <h4>Incubadora Casera (Arduino)</h4>
+                                <p>Como proyecto final para la culminación de mi técnico en sistemas en el colegio, desarrollé una incubadora casera utilizando Arduino. Este proyecto buscaba automatizar el proceso de incubación de huevos, permitiendo controlar la temperatura y humedad de manera precisa, asegurando un ambiente óptimo para el desarrollo de los embriones.</p>
+                            </div>
+                        </div>
+                        <!--Portfolio item End-->
+                        <!--Portfolio item Start-->
+                        <div class="portafolio-item padd-15">
+                            <div class="portafolio-item-inner shadow-dark">
+                                <div class="portafolio-img">
+                                    <img src="/imagenes/Proyectos/Proyecto2_img2.png" alt="">
+                                </div>
+                                <h4>Virus Detecter (Construct2)</h4>
+                                <p>Creé un videojuego 2D llamado Virus Detecter utilizando Construct2. Este juego fue diseñado con mecánicas sencillas y adictivas para combatir virus virtuales en diferentes niveles. El proyecto fue vendido a un grupo de estudiantes que lo utilizaron como parte de sus actividades educativas.</p>
+                            </div>
+                        </div>
+                        <!--Portfolio item End-->
+                        <!--Portfolio item Start-->
+                        <div class="portafolio-item padd-15">
+                            <div class="portafolio-item-inner shadow-dark">
+                                <div class="portafolio-img">
+                                    <img src="/imagenes/Proyectos/Proyeco3_img1.png" alt="">
+                                </div>
+                                <h4>Página Web para Empresa de Huevos (En proceso)</h4>
+                                <p>Actualmente estoy trabajando en una página web destinada a una empresa de producción de huevos. Esta plataforma tiene como objetivo mejorar el manejo de inventarios y facilitar el control diario de la producción, optimizando el orden y la eficiencia en los registros de la empresa.</p>
+                            </div>
+                        </div>
+                        <!--Portfolio item End-->
+                        <!--Portfolio item Start-->
+                        <div class="portafolio-item padd-15">
+                            <div class="portafolio-item-inner shadow-dark">
+                                <div class="portafolio-img">
+                                    <img src="/imagenes/Proyectos/Proyecto4.png" alt="">
+                                </div>
+                                <h4>Autoguardado de Compras de Licores</h4>
+                                <p>Mi cuarto proyecto consiste en una página web de licores desarrollada con HTML, CSS y PHP. Esta plataforma permite a los usuarios comprar licores disponibles, y una característica innovadora es que el historial del carrito de compras se guarda automáticamente. Así, incluso si se cierra la sesión o se apaga el dispositivo, los usuarios pueden retomar su experiencia de compra sin perder información.</p>
+                            </div>
+                        </div>
+                        <!--Portfolio item End-->
+                    </div>
+                </div>
+            </section>
+            <!--Portafolio Section End-->
+            <!--Contact Section Start-->
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row"></div>
+                        <div class="section-title padd-15">
+                            <h2>Contáctame</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">¿Tienes alguna pregunta?</h3>
+                    <h4 class="contact-sub-title padd-15">Estaré a tu servicio</h4>
+                    <div class="row">
+                        <!--Contact info item Start-->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Llamame</h4>
+                            <p>+57 302 399 9133</p>
+                        </div>
+                        <!--Contact info item End-->
+                        <!--Contact info item Start-->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                            <h4>Ubicación</h4>
+                            <p>Ricaurte Cundinamarca</p>
+                        </div>
+                        <!--Contact info item End-->
+                         <!--Contact info item Start-->
+                         <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Email</h4>
+                            <p>ortizgonzalezsantiago86@gmail.com</p>
+                        </div>
+                        <!--Contact info item End-->
+                    </div>
+                    <h3 class="contact-title padd-15">Envíame un email</h3>
+                    <h4 class="contact-sub-title padd-15">Estaré dispuesto a responder tú mensaje</h4>
+                    <!--Formulario de contacto-->
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" id="name" class="form-control" placeholder="Nombre">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" id="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea name="" id="message" class="form-control" placeholder="Mensaje" style="resize: none;"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <button type="submit" id="send-btn" class="btn">Enviar Mensaje</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Contact Section End-->
+        </div>
+    </div>
+    <!--Main container End-->
+    
+    <!--Estilos de la página Start-->
+    <div class="style-switcher">
+        <div class="style-switcher-toggle s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas fa-moon"></i>
+        </div>
+        <h4>Color del tema</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!--Estilos de la página End-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/style-switcher.js"></script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init({
+             publicKey: "RVt34sDSeGMt3RSrE",
+           });
+        })();
+     </script>
+</body>
+</html>
